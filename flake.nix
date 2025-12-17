@@ -30,7 +30,7 @@
           ${pkgs.typescript}/bin/tsc -w > .tsc.log 2>&1 &
           if ! pgrep -f "live-server" > /dev/null; then
              echo "Starting live-server..."
-             ${pkgs.live-server}/bin/live-server --browser firefox -o index.html > .server.log 2>&1 &
+             ${pkgs.live-server}/bin/live-server --browser firefox -o index.html -H 127.0.0.1 -p 43004 > .server.log 2>&1 &
           else
              echo "live-server is already running. Skipping start."
           fi
