@@ -4,8 +4,8 @@ interface User {
 }
 
 let hari:User = {
-  name: "Stanlee",
-  id: 231,
+  name: "hari",
+  id: 23
 };
 
 console.log(hari)

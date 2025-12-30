@@ -1,0 +1,3 @@
+[2025-12-30T11:37:35Z INFO  live_server::http_layer::listener] Listening on http://127.0.0.1:43004/
+[2025-12-30T11:37:35Z INFO  live_server] Listening on /home/hk/prog/harikrishnamohann.github.io
+[2025-12-30T11:37:35Z WARN  live_server::http_layer::server] Failed to read "/home/hk/prog/harikrishnamohann.github.io/favicon.ico": No such file or directory (os error 2)
